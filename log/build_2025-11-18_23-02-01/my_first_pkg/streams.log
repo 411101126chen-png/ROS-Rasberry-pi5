@@ -1,0 +1,16 @@
+[1.641s] Invoking command in '/home/sbr/ros2_ws/build/my_first_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sbr/ros2_ws/build/my_first_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sbr/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sbr/ros2_ws/build/my_first_pkg/build --no-deps
+[2.164s] running develop
+[2.454s] running egg_info
+[2.478s] writing my_first_pkg.egg-info/PKG-INFO
+[2.479s] writing dependency_links to my_first_pkg.egg-info/dependency_links.txt
+[2.485s] writing entry points to my_first_pkg.egg-info/entry_points.txt
+[2.486s] writing requirements to my_first_pkg.egg-info/requires.txt
+[2.486s] writing top-level names to my_first_pkg.egg-info/top_level.txt
+[2.543s] reading manifest file 'my_first_pkg.egg-info/SOURCES.txt'
+[2.544s] writing manifest file 'my_first_pkg.egg-info/SOURCES.txt'
+[2.574s] running build_ext
+[2.574s] Creating /home/sbr/ros2_ws/install/lib/python3.12/site-packages/my-first-pkg.egg-link (link to .)
+[2.575s] Installing follow script to /home/sbr/ros2_ws/install/bin
+[2.575s] 
+[2.575s] Installed /home/sbr/ros2_ws/build/my_first_pkg
+[2.712s] Invoked command in '/home/sbr/ros2_ws/build/my_first_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sbr/ros2_ws/build/my_first_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sbr/ros2_ws/install/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sbr/ros2_ws/build/my_first_pkg/build --no-deps

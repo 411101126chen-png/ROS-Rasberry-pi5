@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.000226] (-) JobUnselected: {'identifier': 'my_robot_description'}
+[0.000459] (my_first_pkg) JobQueued: {'identifier': 'my_first_pkg', 'dependencies': OrderedDict()}
+[0.001271] (my_first_pkg) JobStarted: {'identifier': 'my_first_pkg'}
+[0.099318] (-) TimerEvent: {}
+[0.199651] (-) TimerEvent: {}
+[0.299977] (-) TimerEvent: {}
+[0.400330] (-) TimerEvent: {}
+[0.500685] (-) TimerEvent: {}
+[0.601034] (-) TimerEvent: {}
+[0.701326] (-) TimerEvent: {}
+[0.801634] (-) TimerEvent: {}
+[0.901958] (-) TimerEvent: {}
+[1.002258] (-) TimerEvent: {}
+[1.102564] (-) TimerEvent: {}
+[1.202901] (-) TimerEvent: {}
+[1.303462] (-) TimerEvent: {}
+[1.405997] (-) TimerEvent: {}
+[1.506289] (-) TimerEvent: {}
+[1.606580] (-) TimerEvent: {}
+[1.706943] (-) TimerEvent: {}
+[1.801787] (my_first_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_first_pkg', 'build', '--build-base', '/home/sbr/ros2_ws/build/my_first_pkg/build', 'install', '--record', '/home/sbr/ros2_ws/build/my_first_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sbr/ros2_ws/src/my_first_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'VSCODE_CWD': '/home/sbr', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'LANGUAGE': 'zh_TW:en', 'USER': 'sbr', 'LC_TIME': 'zh_TW.UTF-8', 'CODEX_INTERNAL_ORIGINATOR_OVERRIDE': 'codex_vscode', 'VSCODE_NLS_CONFIG': '{"userLocale":"zh-tw","osLocale":"zh-tw","resolvedLanguage":"zh-tw","defaultMessagesFile":"/usr/share/code/resources/app/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/sbr/.config/Code/clp/58ddf39279c833456fa7910b6f9787ce.zh-tw/tcf.json","messagesFile":"/home/sbr/.config/Code/clp/58ddf39279c833456fa7910b6f9787ce.zh-tw/7d842fb85a0275a4a8e4d7e040d2625abbf7f084/nls.messages.json","corruptMarkerFile":"/home/sbr/.config/Code/clp/58ddf39279c833456fa7910b6f9787ce.zh-tw/corrupted.info"},"locale":"zh-tw","availableLanguages":{"*":"zh-tw"},"_languagePackId":"58ddf39279c833456fa7910b6f9787ce.zh-tw","_languagePackSupport":true,"_translationsConfigFile":"/home/sbr/.config/Code/clp/58ddf39279c833456fa7910b6f9787ce.zh-tw/tcf.json","_cacheRoot":"/home/sbr/.config/Code/clp/58ddf39279c833456fa7910b6f9787ce.zh-tw","_resolvedLanguagePackCoreLocation":"/home/sbr/.config/Code/clp/58ddf39279c833456fa7910b6f9787ce.zh-tw/7d842fb85a0275a4a8e4d7e040d2625abbf7f084","_corruptedFile":"/home/sbr/.config/Code/clp/58ddf39279c833456fa7910b6f9787ce.zh-tw/corrupted.info"}', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '0', 'HOME': '/home/sbr', 'CHROME_DESKTOP': 'code.desktop', 'DESKTOP_SESSION': 'ubuntu', 'VSCODE_IPC_HOOK': '/run/user/1000/vscode-aaf7ea06-1.10-main.sock', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL': '1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'zh_TW.UTF-8', 'MANAGERPID': '1410', 'SYSTEMD_EXEC_PID': '1620', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3950', 'VSCODE_CRASH_REPORTER_PROCESS_TYPE': 'extensionHost', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'VSCODE_L10N_BUNDLE_LOCATION': 'file:///home/sbr/.vscode/extensions/ms-ceintl.vscode-language-pack-zh-hant-1.106.2025111209/translations/extensions/vscode.json-language-features.i18n.json', 'APPLICATION_INSIGHTS_NO_STATSBEAT': 'true', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'sbr', 'JOURNAL_STREAM': '8:12279', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'RUST_LOG': 'warn', 'USERNAME': 'sbr', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/tmp/.tmpBs5huV:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/sbr/.vscode/extensions/openai.chatgpt-0.4.43-linux-arm64/bin/linux-aarch64', 'SESSION_MANAGER': 'local/sbr-desktop:@/tmp/.ICE-unix/1573,unix/sbr-desktop:/tmp/.ICE-unix/1573', 'INVOCATION_ID': 'ff08d2429afd47049cb3c5eb62ee706c', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_TW.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'CODEX_SANDBOX_NETWORK_DISABLED': '1', 'LANG': 'zh_TW.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'LC_TELEPHONE': 'zh_TW.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.B2I1F3', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_TW.UTF-8', 'QT_ACCESSIBILITY': '1', 'ELECTRON_RUN_AS_NODE': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_TW.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'zh_TW.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/sbr/ros2_ws/build/my_first_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'VSCODE_CODE_CACHE_PATH': '/home/sbr/.config/Code/CachedData/7d842fb85a0275a4a8e4d7e040d2625abbf7f084', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sbr/ros2_ws/build/my_first_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sbr/ros2_ws/install/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_TW.UTF-8', 'LC_PAPER': 'zh_TW.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'VSCODE_PID': '3950'}, 'shell': False}
+[1.807111] (-) TimerEvent: {}
+[1.907541] (-) TimerEvent: {}
+[2.007895] (-) TimerEvent: {}
+[2.108212] (-) TimerEvent: {}
+[2.209095] (-) TimerEvent: {}
+[2.309458] (-) TimerEvent: {}
+[2.321208] (my_first_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.354100] (my_first_pkg) StdoutLine: {'line': b'writing ../../build/my_first_pkg/my_first_pkg.egg-info/PKG-INFO\n'}
+[2.354656] (my_first_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_first_pkg/my_first_pkg.egg-info/dependency_links.txt\n'}
+[2.361726] (my_first_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_first_pkg/my_first_pkg.egg-info/entry_points.txt\n'}
+[2.362318] (my_first_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_first_pkg/my_first_pkg.egg-info/requires.txt\n'}
+[2.363048] (my_first_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_first_pkg/my_first_pkg.egg-info/top_level.txt\n'}
+[2.409605] (-) TimerEvent: {}
+[2.429328] (my_first_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_first_pkg/my_first_pkg.egg-info/SOURCES.txt'\n"}
+[2.431306] (my_first_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_first_pkg/my_first_pkg.egg-info/SOURCES.txt'\n"}
+[2.431667] (my_first_pkg) StdoutLine: {'line': b'running build\n'}
+[2.431798] (my_first_pkg) StdoutLine: {'line': b'running build_py\n'}
+[2.432083] (my_first_pkg) StdoutLine: {'line': b'running install\n'}
+[2.443757] (my_first_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.479204] (my_first_pkg) StdoutLine: {'line': b'running install_data\n'}
+[2.479714] (my_first_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.509733] (-) TimerEvent: {}
+[2.521225] (my_first_pkg) StdoutLine: {'line': b"removing '/home/sbr/ros2_ws/install/lib/python3.12/site-packages/my_first_pkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[2.522128] (my_first_pkg) StdoutLine: {'line': b'Copying ../../build/my_first_pkg/my_first_pkg.egg-info to /home/sbr/ros2_ws/install/lib/python3.12/site-packages/my_first_pkg-0.0.0-py3.12.egg-info\n'}
+[2.523766] (my_first_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[2.609901] (-) TimerEvent: {}
+[2.710419] (-) TimerEvent: {}
+[2.814308] (-) TimerEvent: {}
+[2.914661] (-) TimerEvent: {}
+[3.010256] (my_first_pkg) StdoutLine: {'line': b'Installing follow script to /home/sbr/ros2_ws/install/bin\n'}
+[3.012590] (my_first_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/sbr/ros2_ws/build/my_first_pkg/install.log'\n"}
+[3.014821] (-) TimerEvent: {}
+[3.119305] (-) TimerEvent: {}
+[3.224665] (my_first_pkg) CommandEnded: {'returncode': 0}
+[3.225942] (-) TimerEvent: {}
+[3.281623] (my_first_pkg) JobEnded: {'identifier': 'my_first_pkg', 'rc': 0}
+[3.282875] (-) EventReactorShutdown: {}

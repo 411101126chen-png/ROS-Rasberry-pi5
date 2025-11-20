@@ -1,0 +1,31 @@
+[0.024s] Invoking command in '/home/sbr/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sbr/ros2_ws/build/my_robot_description -- -j4 -l4
+[0.082s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.910s] -- Configuring done (0.8s)
+[0.925s] -- Generating done (0.0s)
+[0.935s] -- Build files have been written to: /home/sbr/ros2_ws/build/my_robot_description
+[0.994s] Invoked command in '/home/sbr/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/sbr/ros2_ws/build/my_robot_description -- -j4 -l4
+[1.018s] Invoking command in '/home/sbr/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sbr/ros2_ws/build/my_robot_description
+[1.040s] -- Install configuration: ""
+[1.040s] -- Up-to-date: /home/sbr/ros2_ws/install/share/my_robot_description/launch
+[1.040s] -- Installing: /home/sbr/ros2_ws/install/share/my_robot_description/launch/simulation.launch.py
+[1.040s] -- Up-to-date: /home/sbr/ros2_ws/install/share/my_robot_description/launch/follow_with_sim.launch.py
+[1.041s] -- Up-to-date: /home/sbr/ros2_ws/install/share/my_robot_description/urdf
+[1.041s] -- Installing: /home/sbr/ros2_ws/install/share/my_robot_description/urdf/my_robot.urdf.xacro
+[1.041s] -- Up-to-date: /home/sbr/ros2_ws/install/share/my_robot_description/worlds
+[1.041s] -- Up-to-date: /home/sbr/ros2_ws/install/share/my_robot_description/worlds/vision_follow.world
+[1.041s] -- Installing: /home/sbr/ros2_ws/install/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[1.041s] -- Up-to-date: /home/sbr/ros2_ws/install/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[1.041s] -- Up-to-date: /home/sbr/ros2_ws/install/share/my_robot_description/environment/ament_prefix_path.sh
+[1.042s] -- Up-to-date: /home/sbr/ros2_ws/install/share/my_robot_description/environment/ament_prefix_path.dsv
+[1.042s] -- Up-to-date: /home/sbr/ros2_ws/install/share/my_robot_description/environment/path.sh
+[1.042s] -- Up-to-date: /home/sbr/ros2_ws/install/share/my_robot_description/environment/path.dsv
+[1.042s] -- Up-to-date: /home/sbr/ros2_ws/install/share/my_robot_description/local_setup.bash
+[1.042s] -- Up-to-date: /home/sbr/ros2_ws/install/share/my_robot_description/local_setup.sh
+[1.042s] -- Up-to-date: /home/sbr/ros2_ws/install/share/my_robot_description/local_setup.zsh
+[1.042s] -- Up-to-date: /home/sbr/ros2_ws/install/share/my_robot_description/local_setup.dsv
+[1.042s] -- Installing: /home/sbr/ros2_ws/install/share/my_robot_description/package.dsv
+[1.042s] -- Up-to-date: /home/sbr/ros2_ws/install/share/ament_index/resource_index/packages/my_robot_description
+[1.043s] -- Up-to-date: /home/sbr/ros2_ws/install/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[1.043s] -- Up-to-date: /home/sbr/ros2_ws/install/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[1.043s] -- Installing: /home/sbr/ros2_ws/install/share/my_robot_description/package.xml
+[1.046s] Invoked command in '/home/sbr/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/sbr/ros2_ws/build/my_robot_description

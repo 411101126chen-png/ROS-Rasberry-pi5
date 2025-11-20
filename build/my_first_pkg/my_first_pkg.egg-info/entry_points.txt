@@ -1,0 +1,2 @@
+[console_scripts]
+follow = my_first_pkg.follow:main
