@@ -1,0 +1,27 @@
+# Camera Node Configuration
+
+camera_node:
+  ros__parameters:
+    camera_device: 0        # Camera device index (0 for /dev/video0)
+    camera_fps: 30.0        # Frames per second
+    image_width: 640        # Image width in pixels
+    image_height: 480       # Image height in pixels
+
+# Vision Processor Configuration
+
+vision_processor:
+  ros__parameters:
+    detection_method: 'color'  # Options: 'color', 'contour', 'face'
+    
+    # Color detection parameters (HSV color space)
+    # Default: Red color range
+    target_color_lower: [0, 100, 100]    # HSV lower bound [H, S, V]
+    target_color_upper: [10, 255, 255]   # HSV upper bound [H, S, V]
+    
+    # Alternative colors:
+    # Blue: lower: [100, 100, 100], upper: [130, 255, 255]
+    # Green: lower: [40, 50, 50], upper: [80, 255, 255]
+    # Yellow: lower: [20, 100, 100], upper: [30, 255, 255]
+    
+    min_target_area: 500     # Minimum area (pixels) for valid target
+    publish_debug_image: true # Publish annotated debug images

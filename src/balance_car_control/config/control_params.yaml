@@ -1,0 +1,22 @@
+# Motor Controller Configuration
+
+motor_controller:
+  ros__parameters:
+    max_speed: 1.0          # Maximum motor speed (m/s)
+    motor_update_rate: 50.0  # Hz - frequency of motor command updates
+
+# Balance Controller Configuration
+
+balance_controller:
+  ros__parameters:
+    # PID gains for balance control
+    balance_kp: 0.5
+    balance_ki: 0.01
+    balance_kd: 0.1
+    
+    # Target tracking
+    target_tracking_enabled: true
+    
+    # Speed limits
+    max_linear_speed: 0.5   # m/s
+    max_angular_speed: 1.0  # rad/s
