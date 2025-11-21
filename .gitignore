@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.Python
+env/
+venv/
+
+# ROS / build artifacts
+build/
+install/
+log/
+*.egg-info
+dist/
+
+# Editor
+.vscode/
+.idea/
+
+# PlatformIO
+.pio/
+
+# temporary
+/tmp/
