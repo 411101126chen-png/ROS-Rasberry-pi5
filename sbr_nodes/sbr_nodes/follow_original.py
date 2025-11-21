@@ -302,6 +302,10 @@ if __name__ == '__main__':
         resume_boost = 0
         last_hand_lm = None
 
+        # 增加狀態穩定機制
+        STABLE_STATE_DELAY = 10  # 狀態穩定延遲幀數
+        stable_state_counter = 0
+
         # ========================= 主迴圈 =========================
         while True:
             ok, frame = cap.read()
@@ -384,7 +388,9 @@ if __name__ == '__main__':
                         toggle_cooldown = TOGGLE_COOLDOWN
                         resume_boost = RESUME_BOOST_FRAMES
                         cmd = "FORWARD"
-
+                        stable_state_counter = 0
+                else:
+                    stable_state_counter = 0
             else:  # LOCKED 模式
                 if lock_contour is not None:
                     # 計算搜尋半徑

@@ -22,7 +22,8 @@ setup(
         'console_scripts': [
             'vision_commander = sbr_nodes.vision_commander:main',
             'serial_bridge = sbr_nodes.serial_bridge:main',
-            'follow_node = sbr_nodes.follow_node:main',
+                'follow_node = sbr_nodes.follow_node:main',
+                'image_simulator = sbr_nodes.image_simulator:main',
         ],
     },
 )
