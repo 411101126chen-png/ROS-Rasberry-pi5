@@ -6,12 +6,12 @@ from launch_ros.substitutions import FindPackageShare
 
 
 def generate_launch_description():
-    pkg_share = FindPackageShare('my_robot_description')
+    pkg_share = FindPackageShare('ESP32_connection_pkg')
 
     world_arg = DeclareLaunchArgument(
         'world',
         default_value='vision_follow.world',
-        description='World file (relative to my_robot_description/worlds).',
+        description='World file (relative to ESP32_connection_pkg/worlds).',
     )
 
     world_path = PathJoinSubstitution([pkg_share, 'worlds', LaunchConfiguration('world')])

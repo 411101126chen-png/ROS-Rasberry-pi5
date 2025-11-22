@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.8)
-project(my_robot_description)
+project(ESP32_connection_pkg)
 
 find_package(ament_cmake REQUIRED)
 
@@ -8,6 +8,11 @@ install(DIRECTORY
   urdf
   worlds
   DESTINATION share/${PROJECT_NAME}
+)
+
+install(PROGRAMS
+  scripts/esp32_bridge.py
+  DESTINATION lib/${PROJECT_NAME}
 )
 
 ament_package()

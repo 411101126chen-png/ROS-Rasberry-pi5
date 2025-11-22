@@ -8,13 +8,13 @@ from launch_ros.substitutions import FindPackageShare
 
 def generate_launch_description():
     sim_launch = PathJoinSubstitution(
-        [FindPackageShare('my_robot_description'), 'launch', 'simulation.launch.py']
+        [FindPackageShare('ESP32_connection_pkg'), 'launch', 'simulation.launch.py']
     )
 
     world_arg = DeclareLaunchArgument(
         'world',
         default_value='vision_follow.world',
-        description='World file (relative to my_robot_description/worlds).',
+        description='World file (relative to ESP32_connection_pkg/worlds).',
     )
 
     simulation = IncludeLaunchDescription(
@@ -23,7 +23,7 @@ def generate_launch_description():
     )
 
     follow_node = Node(
-        package='my_first_pkg',
+        package='follow_pkg',
         executable='follow',
         name='follow_node',
         parameters=[{'use_sim_time': True}],

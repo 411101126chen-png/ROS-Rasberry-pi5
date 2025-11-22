@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'my_first_pkg'
+package_name = 'follow_pkg'
 
 setup(
     name=package_name,
@@ -18,7 +18,7 @@ setup(
     license='TODO: License declaration',
     entry_points={
         'console_scripts': [
-            'follow = my_first_pkg.follow:main',
+            'follow = follow_pkg.follow:main',
         ],
     },
 )
